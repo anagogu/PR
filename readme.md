@@ -20,7 +20,7 @@ pe github.com
  ![Fig2](C:/Users/Root/PRproiects/myWork/fig2.png)
 
    Apoi a urmat adaugarea la distanta a originii.</br>
-![Fig3](/myWork/fig3.png)
+![Fig3](fig3.png)
 
    Pentru a testa si a face cunostinta mai indeaproape cu posibilitatiele git-ului
 am utilizat comanda "echo" pentru a scrie din linia de comanda in fisierul "readme.md".
@@ -29,7 +29,7 @@ Dupa care am interprins pasii pentru tranferarea informatie pe repozitoriul git.
 
    Cind am introdus pentru prima oara comanda "git commit -m"(pentru a inregistra 
 versiunea fisierului) m-am ciocnit cu necesitatea de a ma autentifica, deci:</br>
-![Fig5](C:\Users\Root\PRproiects\myWork\fig5.png)
+<img src="C:/Users/Root/PRproiects/myWork/fig5.png/>
 
    In cele din urma am folosit comanda "git push -u origin master" pentru a reinoi
 repozitoriul distant aflindu-ma pe ramura master.</br>
