@@ -17,10 +17,10 @@ pe github.com
  ![Fig1](/myWork/fig1.jpg)
 
    Dupa care utilizind gitbash am initializat un repozitoriu in calculatorul meu.</br>
- ![Fig2](C:\Users\Root\PRproiects\myWork\fig2.png)
+ ![Fig2](C:/Users/Root/PRproiects/myWork/fig2.png)
 
    Apoi a urmat adaugarea la distanta a originii.</br>
-![Fig3](C:\Users\Root\PRproiects\myWork\fig3.png)
+![Fig3](/myWork/fig3.png)
 
    Pentru a testa si a face cunostinta mai indeaproape cu posibilitatiele git-ului
 am utilizat comanda "echo" pentru a scrie din linia de comanda in fisierul "readme.md".
