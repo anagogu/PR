@@ -24,7 +24,7 @@ pe github.com
    Pentru a testa si a face cunostinta mai indeaproape cu posibilitatiele git-ului
 am utilizat comanda "echo" pentru a scrie din linia de comanda in fisierul "readme.md".
 Dupa care am interprins pasii pentru tranferarea informatie pe repozitoriul git.</br>
-![Fig4](file:///C:/Users/Root/PRproiects/myWork/fig4.png)
+![image Info](file:///C:/Users/Root/PRproiects/myWork/fig1.jpg)
 
    Cind am introdus pentru prima oara comanda "git commit -m"(pentru a inregistra 
 versiunea fisierului) m-am ciocnit cu necesitatea de a ma autentifica, deci:</br>
