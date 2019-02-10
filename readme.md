@@ -11,10 +11,10 @@
    In aceasta lucrare de laborator am facut cunostinta cu git, utilizind unele
 comenzi simple cum ar fi cele pentru crearea unui repozitoriu si de transfer
 a datelor de pe repozitoriul local(de pe calculatorul personal) pe cel localizat
-pe github.com.
+pe github.com
 
     Pentru inceput am creat un nou repozitoriu pe care l-am numit PR(abreviere de la Programarea in Retea)</br>
- ![Fig1](C:/Users/Root/PRproiects/myWork/fig1.jpg)
+ ![Fig1](/myWork/fig1.jpg)
 
    Dupa care utilizind gitbash am initializat un repozitoriu in calculatorul meu.</br>
  ![Fig2](C:\Users\Root\PRproiects\myWork\fig2.png)
