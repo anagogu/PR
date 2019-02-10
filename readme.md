@@ -14,7 +14,7 @@ a datelor de pe repozitoriul local(de pe calculatorul personal) pe cel localizat
 pe github.com.
 
     Pentru inceput am creat un nou repozitoriu pe care l-am numit PR(abreviere de la Programarea in Retea)</br>
- ![Fig1](C:\Users\Root\PRproiects\myWork\fig1.jpg)
+ ![Fig1](C:/Users/Root/PRproiects/myWork/fig1.jpg)
 
    Dupa care utilizind gitbash am initializat un repozitoriu in calculatorul meu.</br>
  ![Fig2](C:\Users\Root\PRproiects\myWork\fig2.png)
