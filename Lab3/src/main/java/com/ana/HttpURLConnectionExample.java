@@ -1,67 +1,3 @@
-# Programare in Retea</br>
-### Laboratorul 3</br>
-
-*Scopul lucrarii:*</br>
-  Studierea Protocolului HTTP si descoperirea posibilitatilor acestuia
-
-*Desfasurarea lucrarii:*</br>
-GET
-Metoda GET solicita o reprezentare a resursei specificate. Cererile care
- utilizeaza GET ar trebui sa recupereze numai datele si nu ar trebui sa aiba alt efect.
-
-POST
-Metoda POST cere ca serverul sa accepte entitatea inclusa in cerere ca un nou subordonat
- al resursei web identificate de URI. Datele postate pot fi, de exemplu, o adnotare pentru
- resursele existente; un mesaj pentru un buletin de bord, grup de stiri, lista de discutii
- sau un comentariu; un bloc de date care este rezultatul trimiterii unui formular web la un
- proces de prelucrare a datelor; sau un element de adaugat la o baza de date.
-
-PUT
-Metoda PUT cere ca entitatea inclusa sa fie stocata sub URI furnizat. Daca URI se refera la o
- resursa deja existenta, este modificata; daca URI nu indica o resursa existenta, atunci serverul
- poate crea resursa cu acel URI.
-
-DELETE
-Metoda DELETE sterge resursa specificata.
-
-1xx (Informational): Cererea a fost primita, proces continuu
-2xx (reusita): Solicitarea a fost primita, inteleasa si acceptata cu succes
-3xx (redirectionare): Trebuie sa se actioneze in continuare pentru a completa solicitarea
-4xx (Eroare client): Solicitarea contine o sintaxa incorecta sau nu poate fi indeplinita
-5xx (Eroare server): Serverul nu a reusit sa indeplineasca o cerere aparent valida
-Codul obtinut in cazul meu este 200 de aici rezulta ca raspunsul e O.K.
-Raspunsul standard pentru solicitarile HTTP de succes. Raspunsul real va depinde de metoda 
-de solicitare utilizata. intr-o solicitare GET, raspunsul va contine o entitate 
-corespunzatoare resursei solicitate. intr-o cerere POST, raspunsul va contine o entitate 
-care descrie sau contine rezultatul actiunii.
-
-### COdul sursa al programului
-#### Main.java
-```
-package com.ana;
-
-public class Main {
-
-    public static void main(String[] args) throws Exception {
-            HttpURLConnectionExample http = new HttpURLConnectionExample();
-
-            System.out.println("Testing 1 - Send Http GET request");
-            http.sendGet();
-
-            System.out.println("\nTesting 2 - Send Http POST request");
-            http.sendPost();
-
-            System.out.println("Testing 3 - Send Http PUT request");
-            http.sendPut();
-
-            System.out.println("\nTesting 4 - Send Http DELETE request");
-            http.sendDelete();
-
-    }
-}
-```
-#### Clasa "HttpURLConnectionExample"
-```
 package com.ana;
 
 import org.apache.http.HttpResponse;
@@ -153,12 +89,5 @@ public class HttpURLConnectionExample {
         wr.close();
     }
 }
-
-
-
-```
-### Rezultatul rularii
-![Fig1](Fig1.png) 
-![Fig2](Fig2.png) 
 
 
