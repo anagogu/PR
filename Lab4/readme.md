@@ -115,13 +115,13 @@ public class Main {
 }
 ```
 ### Rezultatul rularii
-![Fig1](images\Fig1.png)</br>
-![Fig2](images\Fig2.png)</br>
-![Fig3](images\Fig3.png)</br>
-![Fig4](images\Fig4.png)</br>
-![Fig5](images\Fig5.png)</br>
-![Fig6](images\Fig6.png)</br>
-![Fig7](images\Fig7.png)</br>
-![Fig8](images\Fig8.png)</br>
-![Fig9](images\Fig9.png)</br>
+![Fig1](images/Fig1.png)</br>
+![Fig2](images/Fig2.png)</br>
+![Fig3](images/Fig3.png)</br>
+![Fig4](images/Fig4.png)</br>
+![Fig5](images/Fig5.png)</br>
+![Fig6](images/Fig6.png)</br>
+![Fig7](images/Fig7.png)</br>
+![Fig8](images/Fig8.png)</br>
+![Fig9](images/Fig9.png)</br>
 
