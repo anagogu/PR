@@ -60,6 +60,7 @@ public class Main {
     }
 }
 ```
+In clasa "Main", doar am apelat cele 4 metode folosite pentru efectuarea lucrarii de laborator, si am scris codul pentru afisarea la ecran a unui text pentru o mai buna organizare .
 #### Clasa "HttpURLConnectionExample"
 ```
 package com.ana;
@@ -73,8 +74,15 @@ import org.apache.http.util.EntityUtils;
 import java.io.DataOutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+```
+In clasa "HttpURLConnectionExample" se contine codul propiru-zis care interactioneaza cu site-ul "https://httpbin.org/" pentru testarea metodelor protocolului HTTP.
+
+Prima metode pe care am ales-o a fost "Get", dupa parerea mea cea mai simpla metoda de implimentat in cod.
+Deci pentru inceput am creat un httpClient. Datorita bibliotecilor existente am utilizat tipul "HttpGet" existent pentru trensmiterea unei cereri "Get".
 
 
+Pentru celelalte metode am utilizat deja o tehnica asemanatoare.
+```
 public class HttpURLConnectionExample {
      private final String USER_AGENT = "Chrome/72.0.3626.81";
 
@@ -134,7 +142,9 @@ public class HttpURLConnectionExample {
         }
 
     }
-
+```
+Pentru a eviata repetarea codului, am creat metoda "statusMetode" ce ne afiseaza la ecranul consolei anumite informatii despre metoda ce o apeleaza, fie GET, POST,PUT sau DELETE. In interiorul ei are loc conexiunea propriu-zisa cu site-ul, obtinerea unor date, si afisarea acestora.
+```
     public void statusMetode(HttpResponse httpResponse) throws Exception {
 
         String content = EntityUtils.toString(httpResponse.getEntity());
