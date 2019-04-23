@@ -226,17 +226,17 @@ Careva date generate in "Quick'n Easy Mail Server" in urma actiunilor mele sunt 
 ![Fig7](images/Fig7.png)</br>
 
 Deci, la punctul 1 al meniului avem posibilitatea de a trimite un mesaj simplu. Aceasta parte am efectuato cel mai usor utilizind metodele (functiile)
-oferite de bibliotecile importate. Iata si rezultatul:
+oferite de bibliotecile importate. Iata si rezultatul:</br>
 ![Fig10](images/Fig10.png)</br>
 
 La punctul 2 deja sa complicat putin sarcina, am invatat cum se poate trimite prin cod un mail cu atasament. Lafel destul de accesibila realiazarea, am 
-mai folosit metode precum attach, setPath care il cunoastem din laboratoarele precedente.
+mai folosit metode precum attach, setPath care il cunoastem din laboratoarele precedente.</br>
 ![Fig4](images/Fig4.png)</br>
 
 Iata la punctul 3 am intilnit deja mai multe dificultati, si anume la inserarea imaginii in mailprin tag-uri html. Nu oricare imagine se afisa. Si insasi
-sarcina data a necesitat mai mult timp si informare suplimentare 
+sarcina data a necesitat mai mult timp si informare suplimentare </br>
 ![Fig5](images/Fig5.png)</br>
 
 Punctul 4 afiseaza ceea ce programul creat a citit din header, (daca ma pot exprima asa). In total, eu am avut 3 mesaje. Secventa de cod de la case-ul 4
-se logheaza si prin protocolul POP3 primeste acces la lista mea de mesaje si pentru a vedea, am pus sa o afiseze in consola.
+se logheaza si prin protocolul POP3 primeste acces la lista mea de mesaje si pentru a vedea, am pus sa o afiseze in consola.</br>
 ![Fig8](images/Fig8.png)</br>
